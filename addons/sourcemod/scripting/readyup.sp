@@ -753,7 +753,7 @@ public Action:ReadyCountdownDelay_Timer(Handle:timer)
 	{
 		if(ShouldResetRoundTwiceToGoLive())
 		{
-			PrintHintTextToAll("\x01Match will be live after \x04 2 round restarts.");
+			PrintHintTextToAll("Match will be live after 2 round restarts.");
 			RestartCampaignAny();
 			return Plugin_Stop;
 		}
